@@ -1,284 +1,134 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFF00,50:FFA500,100:FFD700&height=280&section=header&text=🟡%20KEVIN%20ZONE&fontSize=60&fontColor=000000&animation=fadeIn&fontAlignY=38&desc=🎮%20Wakawaka%20Coding%20%7C%20Berburu%20Bug%20Seperti%20Pac-Man&descAlignY=55&descSize=18"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:FFFF00,100:FFA500&height=200&section=header&text=KEVIN&fontSize=70&fontColor=FFFF00&animation=fadeIn"/>
 </p>
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Press+Start+2P&size=20&duration=2000&pause=1000&color=FFFF00&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=150&lines=🟡+WAKAWAKA+Developer+Mode+ON;💻+PHP+%26+Laravel+Master;🎮+Berburu+Bug+Seperti+Hantu;⚡+Power+Up%3A+Coffee+%2B+Code;🏆+High+Score%3A+Unlimited!" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=FFFF00&center=true&vCenter=true&width=600&lines=Full+Stack+Web+Developer;PHP+%7C+Laravel+%7C+CodeIgniter;Building+Web+Applications" alt="Typing SVG" />
 </div>
 
-<p align="center">
-  <img src="https://media.giphy.com/media/eVUwkJGN1iQRVEbACe/giphy.gif" width="400">
-</p>
+<br>
 
----
-
-<h2 align="center">
-  <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="35">
-  SIAPA PEMAIN INI? 
-  <img src="https://media.giphy.com/media/LMt9638dO8dftAjtco/giphy.gif" width="35">
-</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="50%">
-
-<img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" width="400">
-
-### 🎮 STATISTIK PEMAIN
+<div align="center">
 
 ```php
 <?php
 
-class KevinSiPacman {
-    private $nama = "Kevin";
-    private $peran = "Web Developer 👨‍💻";
-    private $level = "Senior Wakawaka";
-    private $nyawa = 3; // ❤️❤️❤️
-    private $skorTertinggi = 999999;
-    
-    public function getMisiSaatIni(): array {
-        return [
-            '🟡' => 'Makan Semua Bug',
-            '👻' => 'Kabur Dari Deadline',
-            '💻' => 'Coding Laravel',
-            '☕' => 'Minum Kopi Non-Stop',
-            '🎯' => 'Koleksi Power-Up',
-            '🏆' => 'Raih High Score'
-        ];
-    }
-    
-    public function powerUpAktif(): array {
-        return [
-            'PHP' => '⚡⚡⚡⚡⚡',
-            'Laravel' => '⚡⚡⚡⚡⚡',
-            'Kopi' => '☕☕☕☕☕'
-        ];
-    }
-    
-    public function statusPermainan(): string {
-        return "🟡 WAKAWAKA MODE: AKTIF! 🎮";
+namespace App\Developer;
+
+class Kevin
+{
+    protected string $role = "Full Stack Web Developer";
+    protected string $location = "Indonesia";
+    protected array $expertise = [
+        "Backend"  => ["PHP", "Laravel", "CodeIgniter"],
+        "Frontend" => ["HTML5", "CSS3", "JavaScript"],
+        "Database" => ["MySQL", "phpMyAdmin"],
+        "Tools"    => ["Git", "VS Code", "Postman"]
+    ];
+
+    public function getCurrentFocus(): string
+    {
+        return "Building scalable web applications";
     }
 }
-
-$kevin = new KevinSiPacman();
-echo $kevin->statusPermainan();
-```
-
-### 🏆 SKOR: ∞
-
-</td>
-<td align="center" width="50%">
-
-<img src="https://user-images.githubusercontent.com/74038190/216122041-518ac897-8d92-4c6b-9b3f-ca01dcaf38ee.png" width="400">
-
-### 📊 PAPAN SKOR
-
-<img src="https://github-readme-stats.vercel.app/api?username=Kevinn37&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=FFFF00&icon_color=FFA500&text_color=FFFFFF&border_radius=20&include_all_commits=true&count_private=true" width="100%"/>
-
-### 🔥 REKOR BERUNTUN
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Kevinn37&theme=dark&hide_border=true&background=000000&stroke=FFFF00&ring=FFA500&fire=FF4500&currStreakLabel=FFFF00&border_radius=20" width="100%"/>
-
-</td>
-</tr>
-</table>
-
----
-
-<h2 align="center">⚡ POWER-UP & SENJATA RAHASIA ⚡</h2>
-
-<p align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284087-bbe7e430-757e-4901-90bf-4cd2ce3e1852.gif" width="100">
-</p>
-
-<div align="center">
-
-### 🟡 POWER-UP BACKEND
-<img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white&labelColor=FFFF00"/> <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white&labelColor=FFA500"/> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white&labelColor=FFD700"/> <img src="https://img.shields.io/badge/Composer-885630?style=for-the-badge&logo=composer&logoColor=white&labelColor=FF8C00"/>
-
-### 🎨 POWER-UP FRONTEND
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white&labelColor=FFFF00"/> <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white&labelColor=FFA500"/> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black&labelColor=FFD700"/> <img src="https://img.shields.io/badge/Bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=FF8C00"/>
-
-### 🛠️ SENJATA & PERALATAN
-<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white&labelColor=FFFF00"/> <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white&labelColor=FFA500"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white&labelColor=FFD700"/> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white&labelColor=FF8C00"/>
-
-</div>
-
----
-
-<h2 align="center">📈 PROGRESS PERMAINAN & PENCAPAIAN 📈</h2>
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kevinn37&layout=compact&theme=dark&hide_border=true&bg_color=000000&title_color=FFFF00&text_color=FFFFFF&border_radius=20&langs_count=10" width="48%"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Kevinn37&theme=github-compact&hide_border=true&bg_color=000000&color=FFFF00&line=FFA500&point=FFD700&area=true&radius=20" width="98%"/>
-
-</div>
-
----
-
-<h2 align="center">🎯 MISI SAAT INI & QUEST SAMPINGAN 🎯</h2>
-
-<div align="center">
-
-```diff
-+ 🟡 Makan semua bug di production
-+ 💻 Menguasai Laravel seperti pro
-+ 🎨 Membuat interface cantik dan keren
-+ 🐛 Berburu bug seperti Pac-Man makan titik
-+ ☕ Minum kopi = Power-Up unlimited
-+ 📚 Belajar teknologi baru setiap hari
-+ 🏆 Raih high score di GitHub
-! ⚠️ QUEST DARURAT: Perbaiki bug production sekarang!
-- 👻 Hindari hantu deadline (Blinky, Pinky, Inky, Clyde)
-- 😴 Tidur (Quest opsional, jarang selesai)
 ```
 
 </div>
 
----
+<br>
 
-<h2 align="center">🏆 TROPHY & ACHIEVEMENT TERKUMPUL 🏆</h2>
+## Tech Stack
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Kevinn37&theme=onedark&no-frame=true&no-bg=true&margin-w=4&column=7&title=Commits,Repositories,Stars,Followers,PullRequest,Issues" width="98%"/>
+### Backend
+<a href="https://www.php.net" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/php.svg" alt="PHP" width="50" height="50" style="filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(210deg) brightness(95%) contrast(97%);"/></a>
+<a href="https://laravel.com" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/laravel.svg" alt="Laravel" width="50" height="50" style="filter: invert(27%) sepia(97%) saturate(3202%) hue-rotate(348deg) brightness(95%) contrast(105%);"/></a>
+<a href="https://codeigniter.com" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/codeigniter.svg" alt="CodeIgniter" width="50" height="50" style="filter: invert(35%) sepia(89%) saturate(2267%) hue-rotate(346deg) brightness(92%) contrast(104%);"/></a>
+<a href="https://www.mysql.com" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/mysql.svg" alt="MySQL" width="50" height="50" style="filter: invert(42%) sepia(93%) saturate(1352%) hue-rotate(162deg) brightness(96%) contrast(104%);"/></a>
+
+### Frontend
+<a href="https://www.w3.org/html/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/html5.svg" alt="HTML5" width="50" height="50" style="filter: invert(43%) sepia(96%) saturate(1523%) hue-rotate(347deg) brightness(99%) contrast(93%);"/></a>
+<a href="https://www.w3schools.com/css/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/css3.svg" alt="CSS3" width="50" height="50" style="filter: invert(29%) sepia(95%) saturate(1686%) hue-rotate(194deg) brightness(98%) contrast(101%);"/></a>
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/javascript.svg" alt="JavaScript" width="50" height="50" style="filter: invert(83%) sepia(64%) saturate(3126%) hue-rotate(359deg) brightness(103%) contrast(103%);"/></a>
+<a href="https://getbootstrap.com" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/bootstrap.svg" alt="Bootstrap" width="50" height="50" style="filter: invert(21%) sepia(88%) saturate(3070%) hue-rotate(252deg) brightness(95%) contrast(89%);"/></a>
+
+### Tools
+<a href="https://git-scm.com/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/git.svg" alt="Git" width="50" height="50" style="filter: invert(37%) sepia(79%) saturate(3091%) hue-rotate(346deg) brightness(96%) contrast(95%);"/></a>
+<a href="https://code.visualstudio.com/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/visualstudiocode.svg" alt="VS Code" width="50" height="50" style="filter: invert(44%) sepia(92%) saturate(2277%) hue-rotate(183deg) brightness(100%) contrast(101%);"/></a>
+<a href="https://www.postman.com/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/postman.svg" alt="Postman" width="50" height="50" style="filter: invert(54%) sepia(65%) saturate(3920%) hue-rotate(347deg) brightness(102%) contrast(103%);"/></a>
+<a href="https://github.com/" target="_blank"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v8/icons/github.svg" alt="GitHub" width="50" height="50" style="filter: invert(100%);"/></a>
 
 </div>
 
----
+<br>
 
-<h2 align="center">🌟 FAKTA MENARIK TENTANG SAYA 🌟</h2>
-
-<table align="center">
-<tr>
-<td align="center" width="33%">
-
-### 💭 FILOSOFI CODING
-
-<img src="https://user-images.githubusercontent.com/74038190/229223156-0cbdaba9-3128-4d8e-8719-b6b4cf741b67.gif" width="150">
-
-*"Kode itu seperti humor.*  
-*Kalau harus dijelasin,*  
-*berarti jelek."*
-
-**– Cory House**
-
-**🎮 GAME OVER? NO WAY!**
-
-</td>
-<td align="center" width="33%">
-
-### ⚡ STATUS POWER-UP
-
-<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="150">
-
-```
-Level Kopi:   ████████░░ 80%
-Bunuh Bug:    ██████████ 99%
-Kualitas Kod: ████████░░ 85%
-Energi Game:  ██████████ 100%
-Wakawaka:     ██████████ MAX!
-```
-
-**🟡 MODE: UNSTOPPABLE**
-
-</td>
-<td align="center" width="33%">
-
-### 🎯 RUTINITAS HARIAN
-
-<img src="https://user-images.githubusercontent.com/74038190/229223263-cf2e4b07-2615-4f87-9c38-e37600f8381a.gif" width="150">
-
-1. ☕ **Kopi++**
-2. 💻 **Coding()**
-3. 🟡 **Wakawaka()**
-4. 🐛 **BunuhBug()**
-5. 🎮 **Gaming()**
-6. 🔄 **Repeat()**
-
-</td>
-</tr>
-</table>
-
----
-
-<h2 align="center">🟡 PAC-MAN MAKAN KONTRIBUSI SAYA 🟡</h2>
+## GitHub Statistics
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
-  
-  <p><strong>🎮 Wakawaka! Semua kontribusi dimakan! 🟡</strong></p>
+  <img src="https://github-readme-stats.vercel.app/api?username=Kevinn37&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=FFFF00&icon_color=FFA500&text_color=c9d1d9&include_all_commits=true&count_private=true" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Kevinn37&theme=dark&hide_border=true&background=0d1117&stroke=FFFF00&ring=FFA500&fire=FFA500&currStreakLabel=FFFF00" width="49%" />
 </div>
 
----
-
-<h2 align="center">😂 JOKE DEVELOPER RANDOM 😂</h2>
-
 <div align="center">
-
-<img src="https://readme-jokes.vercel.app/api?theme=dark&borderColor=FFFF00&textColor=FFFFFF&bgColor=000000" alt="Jokes Card" />
-
-<p><strong>🎮 Ketawa dulu biar ga stress! 🟡</strong></p>
-
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Kevinn37&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=FFFF00&text_color=c9d1d9&langs_count=8&hide=python,jupyter%20notebook" width="49%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Kevinn37&theme=github-compact&hide_border=true&bg_color=0d1117&color=FFFF00&line=FFA500&point=c9d1d9&area=true&height=200" width="98%" />
 </div>
 
----
+<br>
 
-<h2 align="center">🎮 LEVEL & STATISTIK GAME 🎮</h2>
+## Skills Overview
 
 <div align="center">
 
-| 🏆 PENCAPAIAN | ⚡ LEVEL | 🟡 STATUS |
+| Backend Development | Frontend Development | Database & Tools |
 |:---:|:---:|:---:|
-| Kode Ditulis | 999,999+ | **LEGENDARY** |
-| Bug Dibunuh | ∞ | **IMMORTAL** |
-| Kopi Diminum | ∞ Liter | **CAFFEINATED** |
-| Hantu Dikalahkan | 9999+ | **GHOST HUNTER** |
-| Power-Up Aktif | MAX | **GOD MODE** |
+| PHP | HTML5 | MySQL |
+| Laravel | CSS3 | phpMyAdmin |
+| CodeIgniter | JavaScript | Git |
+| Composer | Bootstrap | VS Code |
+| RESTful API | jQuery | Postman |
 
 </div>
 
----
+<br>
 
-<h2 align="center">📬 HUBUNGI SAYA (JIKA BUTUH POWER-UP) 📬</h2>
+## GitHub Trophies
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Kevinn37&theme=darkhub&no-frame=true&margin-w=15&column=7&title=Commits,Repositories,Stars,Followers,PullRequest,Issues,MultiLanguage" width="98%" />
+</div>
+
+<br>
+
+## Current Focus
+
+- Mengembangkan aplikasi web modern dengan Laravel
+- Meningkatkan kemampuan backend development
+- Mempelajari arsitektur software yang scalable
+- Implementasi best practices dalam web development
+
+<br>
+
+## Connect With Me
 
 <div align="center">
 
-<a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-  <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=FFFF00"/>
-</a>
-<a href="https://twitter.com/yourprofile" target="_blank">
-  <img src="https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white&labelColor=FFA500"/>
-</a>
-<a href="mailto:your.email@example.com">
-  <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white&labelColor=FFD700"/>
-</a>
-<a href="https://instagram.com/yourprofile" target="_blank">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white&labelColor=FF8C00"/>
-</a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/yourprofile)
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/yourprofile)
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/yourprofile)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your.email@example.com)
 
 </div>
 
----
+<br>
 
 <div align="center">
-
-<img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="700">
-
-### 🟡 *"WAKAWAKA! Terus Coding, Jangan Pernah Game Over!"* 🎮
-
-<img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" /> **LEVEL: MAKSIMAL** <img src="https://user-images.githubusercontent.com/74038190/213844263-a8897a51-32f4-4b3b-b5c2-e1528b89f6f3.png" width="50px" />
-
-### 💛 Terima kasih sudah main ke zona saya! 💛
-
-<img src="https://komarev.com/ghpvc/?username=Kevinn37&label=Pengunjung%20Zona&color=FFFF00&style=for-the-badge&labelColor=000000" alt="Profile Views"/>
-
-### 🎮 **INSERT COIN TO CONTINUE** 🟡
-
+  <img src="https://komarev.com/ghpvc/?username=Kevinn37&label=Profile%20Views&color=yellow&style=flat-square" />
 </div>
+
+<br>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFFF00,50:FFA500,100:FFD700&height=150&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:FFFF00,100:FFA500&height=100&section=footer"/>
 </p>
