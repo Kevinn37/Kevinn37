@@ -1,4 +1,3 @@
-
 # 👋 Hi, I'm Kevin
 
 <img src="https://readme-typing-svg.herokuapp.com?color=00F7FF&size=25&center=true&vCenter=true&width=600&lines=Web+Developer;PHP+Native+Enthusiast;Always+Learning+New+Things" />
@@ -7,10 +6,10 @@
 
 ## 🚀 About Me
 
-💻 Saya seorang programmer yang fokus di **Web Development**  
-🔥 Lagi serius belajar dan mengembangkan skill setiap hari  
-🎯 Target: **Fullstack Developer**  
-📍 Indonesia  
+💻 Saya seorang programmer yang fokus di **Web Development**
+🔥 Lagi serius belajar dan mengembangkan skill setiap hari
+🎯 Target: **Fullstack Developer**
+📍 Indonesia
 
 ---
 
@@ -33,9 +32,8 @@
 
 ## 📊 GitHub Stats
 
-![Kevin's GitHub stats](https://github-readme-stats.vercel.app/api?username=USERNAME&show_icons=true&theme=tokyonight)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME&layout=compact&theme=tokyonight)
+![Kevin's GitHub stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME&show_icons=true&theme=tokyonight)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME&layout=compact&theme=tokyonight)
 
 ---
 
@@ -43,9 +41,9 @@
 
 ✨ Beberapa project yang sudah saya buat:
 
-- 📌 CRUD Mahasiswa (PHP Native)
-- 📌 Sistem Undangan Digital QR Code
-- 📌 Dashboard Admin Sederhana
+- 📌 [CRUD Mahasiswa](https://github.com/YOUR_USERNAME/crud-mahasiswa) — Aplikasi CRUD sederhana menggunakan PHP Native & MySQLi
+- 📌 [Sistem Undangan Digital QR Code](https://github.com/YOUR_USERNAME/undangan-digital) — Undangan digital dengan fitur QR Code
+- 📌 [Dashboard Admin Sederhana](https://github.com/YOUR_USERNAME/dashboard-admin) — Dashboard admin dengan tampilan responsif
 
 ---
 
@@ -55,10 +53,10 @@
   <a href="mailto:emailkamu@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
   </a>
-  <a href="https://instagram.com/username">
+  <a href="https://instagram.com/YOUR_USERNAME">
     <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white"/>
   </a>
-  <a href="https://github.com/USERNAME">
+  <a href="https://github.com/YOUR_USERNAME">
     <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white"/>
   </a>
 </p>
@@ -71,15 +69,4 @@
 
 ---
 
-## 🧩 Quote
-
 > *"Consistency is more important than motivation."*
-
----
-
-## ⭐ Support Me
-
-Kalau kamu suka profile ini:
-- ⭐ Follow GitHub saya
-- 🍴 Lihat project-project saya
-- 💬 Kasih feedback
