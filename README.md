@@ -7,9 +7,8 @@
 ## 🚀 About Me
 
 💻 Saya seorang programmer yang fokus di **Web Development**
-🔥 Lagi serius belajar dan mengembangkan skill setiap hari
-🎯 Target: **Fullstack Developer**
-📍 Indonesia
+🎯  **Front-End Developer**
+📍 Makassar
 
 ---
 
